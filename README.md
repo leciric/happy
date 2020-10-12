@@ -8,7 +8,6 @@ happy uses some open source projects to work properly:
 
   * [Node.js]
   * [react]
-  * [react]
   
   
 ### 🔨 Installation 
