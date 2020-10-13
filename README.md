@@ -12,7 +12,7 @@ happy uses some open source projects to work properly:
   
 ### 🔨 Installation 
 
-devRadar requires [node.js] to run.
+happy requires [node.js] to run.
 
 To run this project, you must install all dependecies from web running the command below in all folders, then just start the project.
 
