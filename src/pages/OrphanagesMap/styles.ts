@@ -1,12 +1,14 @@
-#page-map {
+import styled from 'styled-components';
+
+export const Container = styled.div`
+
     width: 100vw;
     height: 100vh;
 
     position: relative;
     display: flex;
-}
 
-#page-map aside {
+ aside {
     width: 440px;
     background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
     padding: 80px;
@@ -16,7 +18,7 @@
     justify-content: space-between;
 }
 
-#page-map aside h2 {
+ aside h2 {
     font-size: 40px;
 
     font-weight: 800;
@@ -25,28 +27,28 @@
     margin-top: 64px;
 }
 
-#page-map aside p {
+ aside p {
     line-height: 28px;
     margin-top: 24px;
 }
 
 
-#page-map aside footer {
+ aside footer {
     display: flex;
     flex-direction: column;
 
     line-height: 24px;
 }
 
-#page-map aside footer strong {
+ aside footer strong {
     font-weight: 800;
 }
 
-#page-map .leaflet-container {
+ .leaflet-container {
     z-index: 5;
 }
 
-#page-map .create-orphanage {
+ .create-orphanage {
     position: absolute;
     right: 40px;
     bottom: 40px;
@@ -67,6 +69,8 @@
 
 }
 
-#page-map .create-orphanage:hover {
+ .create-orphanage:hover {
     background: #17d6eb;
 }
+
+`;

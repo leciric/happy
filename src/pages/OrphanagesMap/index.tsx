@@ -3,15 +3,16 @@ import { Link } from 'react-router-dom';
 import { FiPlus } from 'react-icons/fi';
 import { Map, TileLayer } from 'react-leaflet';
 
-import '../styles/pages/orphanages-map.css';
 import 'leaflet/dist/leaflet.css';
 
-import mapMarkerImg from '../images/map-marker.svg';
+import mapMarkerImg from '../../images/map-marker.svg';
+
+import { Container } from './styles';
 
 
 function OrphanagesMap() {
     return (
-        <div id="page-map">
+        <Container>
             <aside>
                 <header>
                     <img src={mapMarkerImg} alt="Happy"/>
@@ -38,7 +39,7 @@ function OrphanagesMap() {
             <Link to="" className="create-orphanage">
                 <FiPlus size={32} color="#FFF"/>
             </Link>
-        </div>
+        </Container>
     )
 }
 
